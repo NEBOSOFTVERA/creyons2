@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(-45deg,#4158D0,#e560dc,#ffb374,#ef5f5f,#d840b6);
+    height: 100vh;
+}
+/*test*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+  text-align:center;
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+ 
+  overflow:hidden;
+  
+}
+img {
+  width: 130px;
+}
+
+div {
+  display:inline-block;
+  overflow:hidden;
+  color: white;
+  font-weight: bold;
+}
+
+i {
+  margin: 55%;
+ 
+ }
+
+div:first-of-type  {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+  
+}
+div:last-of-type a {
+    width:0px;
+    animation: reveal 1s infinite;
+
+    
+  }
+  
+
+  div:last-of-type a {
+    margin-left:525px;
+    animation: slidein 4s infinite;
+    
+
+    
+  }
+  
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-900px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:350px}
+    30% {width:-355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:-355px;}
+}
+
+
+  /*test */
+
+  .gallery {
+    margin: 5px;
+    float: left;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 5px 5px 3px rgb(98, 80, 80);
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+ 
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    
+  }
+  a{
+    font-size: 40px;
+    
+    box-shadow: 2px 2px 5px 1px  rgb(30, 23, 23);
+    padding: 5px;
+    margin-top: 90%;
+    
+  }
+  i {
+    margin: 40px 20px;
+  }
+  .youtube {
+    color: red;
+    background-color: red;
+  }
+  .fa-youtube{
+    color: #ffffff;
+  }
+
+  .fa-instagram {
+    color: #bc1888;
+  }
+  .instagram {
+    background: #f09433; 
+   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   
+
+  }
+  .fa-instagram {
+    color:white;
+  }
+  .twitter {
+    background-color:rgb(11, 202, 255) ;
+  }
+  .fa-twitter {
+    color: rgb(255, 255, 255);
+  }
+  .fa-twitter:hover{
+    color: white;
+  }
+  
+  .fa-facebook-f {
+    color: rgb(39, 39, 255);
+    
+  }
+  .fa-facebook-f:hover {
+    color: white;
+  }
+ 
