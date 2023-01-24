@@ -136,21 +136,17 @@ div:last-of-type a {
   .fa-instagram {
     color:white;
   }
-  .twitter {
-    background-color:rgb(11, 202, 255) ;
+  .facebook {
+    background-color:rgb(17, 0, 255) ;
   }
-  .fa-twitter {
-    color: rgb(255, 255, 255);
-  }
-  .fa-twitter:hover{
+  .fa-facebook {
     color: white;
   }
-  
-  .fa-facebook-f {
-    color: rgb(39, 39, 255);
+  .whatsapp {
+    background-color: rgb(37, 211, 102);
+  }
+  .fa-whatsapp {
+    color: white;
     
   }
-  .fa-facebook-f:hover {
-    color: white;
-  }
- 
+  
